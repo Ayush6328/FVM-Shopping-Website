@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Ayush</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <style type="text/css">
+
+        header{
+      background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(mike-petrucci-131817-unsplash.jpg);
+        background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+            .name{
+      color: whitesmoke;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;         
+        }
+        
+        .section-food
+        {
+            padding: 0;
+        }
+        .food-products
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100;
+            margin-bottom: 30px;
+        }
+        .food-products li
+        {
+            display: block;
+            float: left;
+            width: 25%;
+        }
+        .food-items
+        {
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        .food-items img
+        {
+            opacity: 0.7;
+            width: 100%;
+            height: auto;
+            transform: scale(1.15);
+            transition: transform 0.5s, opacity 0.5s;
+        }
+        .food-items img:hover
+        {
+            opacity: 1;
+            transform: scale(1.03);
+        }
+        .pro-food{
+            color: black;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .pro-food:after{
+            display: block;
+            height: 2px;
+            background-color: brown;
+            content: " ";
+            width: 100px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .iphone{
+            font-size: 30px;
+            font-style: italic;
+        }
+        .reviews{
+            text-align:center;
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(fancycrave-520422-unsplash.jpg);
+            height: 130vh;
+            font-size: 30px;
+            color: whitesmoke;
+        }
+        blockquote{
+            font-style: italic;
+            padding: 1%;
+            line-height: 145%;
+        }
+        blockquote:before{
+            content: "\201C";
+            font-size: 200%;
+        }
+        cite{
+            font-size: 90%;
+            margin-top: 25px;
+            display: block;
+        }
+        cite img{
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+    
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FVM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        
+
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Food Products</a>
+                        <a class="dropdown-item" href="#">Bathroom Products</a>
+                        <a class="dropdown-item" href="#">Something else</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+     
+    <header>
+    <div class="name text-center">
+        <h1 style="font-size: 80px">FULL MARKET VALUE</h1>
+        <h2 style="font-size: 40px"><i>Change Your Views On Marketing</i></h2>       
+    </div>
+    </header>
+    
+    <section class="pro-food">
+        <h1>FOOD PRODUCTS</h1>
+    </section>
+    
+    <section class="section-food">
+        <ul class="food-products">
+                       <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+        </ul>
+           <ul class="food-products">
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="pro-food">
+        <h1>BATHROOM PRODUCTS</h1>
+    </section>
+    
+        <section class="section-food">
+        <ul class="food-products">
+                       <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+        </ul>
+           <ul class="food-products">
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="pro-food">
+        <h1>SOMETHING ELSE</h1>
+    </section>
+    
+            <section class="section-food">
+        <ul class="food-products">
+                       <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="alexandra-gorn-301302-unsplash.jpg" alt="Meonees">
+                </figure>
+            </li>
+                        <li>
+                <figure class="food-items">
+                    <img src="lily-banse-677861-unsplash (1).jpg" alt="Pizza">
+                </figure>
+            </li>
+        </ul>
+           <ul class="food-products">
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Perfume">
+                </figure>
+            </li>
+                        <li style="margin-bottom: 30px">
+                <figure class="food-items">
+                    <img src="rawpixel-656747-unsplash.jpg" alt="Lipstick">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="pro-food">
+        <h1>HOW IT WORKS - SIMPLE AS 1,2,3</h1>
+    </section>
+    
+       <section class="iphone">
+                   <ol>
+                       <li>
+                <figure>
+                    <p>Choose the product that best fits your needs and sign up today.</p>
+                </figure>
+            </li>
+                        <li>
+                <figure>
+                    <p>Order your product by call us!</p>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <p>Take your order product after less then 60 minutes.See you next time!</p>
+                </figure>
+                       </li>           
+           </ol>
+    </section>
+    
+     <section class="pro-food">
+        <h1>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
+    </section>
+    
+    
+    <section class="reviews">
+        <blockquote>
+        Full Market Value is just awesome! I just Launched
+        a startup which leavse me with no time for buying products from the market, so Full Market value is a life-saver.
+            <cite><img src="IMG_20180606_170730_287.jpg">Ayush Sharma</cite>
+        </blockquote>
+        <blockquote>
+        I was looking for a quick and easy food delivery sevice in Delhi.I tried a lot of them and ended up with Full Market Value. Best food delivery service in the city. Keep up the great work!
+            <cite><img src="IMG-20171208-WA0031.jpg">Arvind Triphati</cite>
+        </blockquote>
+    </section>
+    
+        <section class="pro-food">
+        <h1>WE'RE HAPPY TO HERE FROM YOU</h1>
+    </section>
+    <div class="row">
+        <form method="post" action="#" class="contact-form">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+            <input type="text" name="name" id="name" placeholder="Your name" required>        
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+            <input type="email" name="email" id="email" placeholder="Your email" required>        
+                </div>
+            </div>
+        </form>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        
+</body>
+</html>
